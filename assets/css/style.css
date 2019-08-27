@@ -1,0 +1,24 @@
+#header {
+  height: 80px; }
+
+.row {
+  border: 2px solid black; }
+
+img {
+  width: 15%; }
+
+.space {
+  display: flex;
+  justify-content: space-around; }
+
+.first, .second {
+  border: 2px solid black; }
+
+#vs {
+  align-self: center;
+  text-align: center; }
+
+.battle-items {
+  width: 33%; }
+
+/*# sourceMappingURL=style.css.map */

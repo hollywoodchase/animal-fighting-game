@@ -1,0 +1,29 @@
+$border: 2px solid black;
+
+#header {
+    height: 80px;
+}
+.row {
+    border: $border;
+}
+img {
+    width: 15%;
+}
+.space {
+    display: flex;
+    justify-content: space-around;
+}
+.first, .second {
+    border: $border;
+}
+#vs {
+    align-self: center;
+    text-align: center;
+}
+#second-fighter {
+
+}
+.battle-items {
+    width: 33%;
+
+}
