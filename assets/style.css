@@ -2,17 +2,25 @@
   height: 80px; }
 
 .row {
-  border: 2px solid black; }
+  border: 2px solid green; }
 
 img {
-  width: 15%;
-  height: 100%; }
+  width: 15%; }
 
 .space {
   display: flex;
   justify-content: space-around; }
 
-.first {
-  border: 2px solid black; }
+.first, .second {
+  border: 2px solid green; }
+
+#vs {
+  align-self: center;
+  text-align: center; }
+
+.battle-items {
+  width: 33%;
+  text-align: center;
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */

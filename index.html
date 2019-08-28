@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div id="header" class="col-sm-12 jumbotron text-center">
+            <div id="header" class="col-sm-12 text-center">
                 <h1>Animal Fighting Game</h1>
             </div>
         </div>
@@ -19,10 +19,10 @@
             <div id="animals" class="col-sm-12 text-center space"></div>
         </div>
         <div class="row">
-            <div id="battle" class="col-sm-12 space">
-                <div id="first-fighter" class="battle-items"></div>
-                <h1 id="vs" class="battle-items">VS</h1>
-                <div id="second-fighter" class="battle-items"></div>
+            <div id="the-fight">
+                <div id="first-fighter" class="col-sm-5 battle-items"></div>
+                <h1 id="vs" class="col-sm-2 battle-items">VS</h1>
+                <div id="second-fighter" class="col-sm-5 battle-items"></div>
             </div>
         </div>
         <div class="row">
@@ -37,6 +37,11 @@
             </div>
             <div class="col-sm-4 text-center">
                 <h3>Your opponent's health</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div id="button-div" class="col-sm-12">
+                <button class="btn btn-lg btn-success" onclick="attack()">Attack!</button>
             </div>
         </div>
         <div class="row">

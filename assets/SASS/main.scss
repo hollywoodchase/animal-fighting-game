@@ -1,7 +1,10 @@
 $border: 2px solid black;
 
 #header {
-    height: 80px;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row {
     border: $border;
@@ -12,18 +15,39 @@ img {
 .space {
     display: flex;
     justify-content: space-around;
+    // text-align: center;
 }
 .first, .second {
     border: $border;
 }
 #vs {
+    display: flex;
+    justify-content: space-around;
     align-self: center;
-    text-align: center;
+    flex: 2;
+}
+#the-fight {
+    display: flex;
+    width: 100%;
+}
+#first-fighter {
+    display: flex;
+    justify-content: center;
+    max-height: 17em;
+    flex: 2;
 }
 #second-fighter {
-
+    max-height: 17em;
+    flex: 2;
+    display: flex;
+    justify-content: center;
 }
 .battle-items {
     width: 33%;
-
+    display: flex;
+    align-items: center;
+}
+#button-div {
+    display: flex;
+    justify-content: center;
 }
