@@ -1,11 +1,15 @@
+.row {
+  border: 2px solid black; }
+
 #header {
   height: 5em;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  border: 2px none purple; }
 
-.row {
-  border: 2px solid black; }
+#animals {
+  border: 2px none white; }
 
 img {
   width: 15%; }
@@ -25,7 +29,10 @@ img {
 
 #the-fight {
   display: flex;
-  width: 100%; }
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 2px none white; }
 
 #first-fighter {
   display: flex;
